@@ -1,0 +1,3 @@
+add_subdirectory(TestBehavioral)
+add_subdirectory(TestStructural)
+add_subdirectory(TestCreational)
