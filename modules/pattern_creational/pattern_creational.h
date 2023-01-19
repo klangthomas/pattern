@@ -24,3 +24,4 @@
 #define PATTERN_CREATIONAL_H_INCLUDED
 
 #include "factory/factory.h"
+#include "prototype/prototype.hpp"

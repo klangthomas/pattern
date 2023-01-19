@@ -9,3 +9,5 @@
 
 #include "factory/factory.cpp"
 #include "factory/factoryUnittest.cpp"
+
+#include "prototype/prototypeUnittest.cpp"
