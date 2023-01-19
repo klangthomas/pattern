@@ -25,3 +25,4 @@
 
 #include "factory/factory.h"
 #include "prototype/prototype.hpp"
+#include "builder/builder.hpp"

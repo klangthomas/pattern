@@ -11,3 +11,5 @@
 #include "factory/factoryUnittest.cpp"
 
 #include "prototype/prototypeUnittest.cpp"
+
+#include "builder/builderUnittest.cpp"
