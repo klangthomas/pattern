@@ -22,3 +22,5 @@
 
 #pragma once
 #define PATTERN_CREATIONAL_H_INCLUDED
+
+#include "factory/factory.h"

@@ -6,3 +6,6 @@
 */
 #error "Incorrect use of JUCE cpp file"
 #endif
+
+#include "factory/factory.cpp"
+#include "factory/factoryUnittest.cpp"
