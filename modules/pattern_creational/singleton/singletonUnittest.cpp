@@ -6,7 +6,7 @@
 
 void getSingleton ( std::string singletonName, std::string& returnName )
 {
-	std::this_thread::sleep_for ( std::chrono::milliseconds ( 10 ) );
+	std::this_thread::sleep_for ( std::chrono::milliseconds ( 1000 ) );
 	Singleton* s = Singleton::getInstance ( singletonName );
 	returnName = s->getValue ( );
 };
@@ -34,8 +34,8 @@ TEST_CASE ( "Singleton multithreading" )
 	t1.join ( );
 	t2.join ( );
 
-	REQUIRE ( t1Name == "FOO" );
-	REQUIRE ( t2Name == "FOO" );
+	// Can't determine which thread comes first. Therefore we have to check names, which should be identical
+	REQUIRE ( t1Name == t2Name );
 
 	Singleton::deleteInstanceForUnitTests ( );
 }
