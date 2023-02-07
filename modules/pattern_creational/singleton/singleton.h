@@ -1,9 +1,13 @@
 #pragma once
 #include <string>
+#include <mutex>
 
 
 class Singleton
 {
+private:
+	static std::mutex m;
+
 protected:
 	Singleton ( const std::string value );
 	~Singleton ( );
