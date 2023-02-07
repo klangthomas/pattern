@@ -6,3 +6,5 @@
 */
 #error "Incorrect use of JUCE cpp file"
 #endif
+
+#include "bridge/bridgeUnittest.cpp"

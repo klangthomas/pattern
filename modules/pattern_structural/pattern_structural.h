@@ -22,3 +22,5 @@
 
 #pragma once
 #define PATTERN_STRUCTURAL_H_INCLUDED
+
+#include "bridge/bridge.h"
