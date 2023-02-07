@@ -13,3 +13,6 @@
 #include "prototype/prototypeUnittest.cpp"
 
 #include "builder/builderUnittest.cpp"
+
+#include "singleton/singleton.cpp"
+#include "singleton/singletonUnittest.cpp"
