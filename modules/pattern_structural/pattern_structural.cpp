@@ -8,3 +8,4 @@
 #endif
 
 #include "bridge/bridgeUnittest.cpp"
+#include "adapter/adapterUnittest.cpp"

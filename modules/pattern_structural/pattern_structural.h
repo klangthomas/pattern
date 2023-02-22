@@ -24,3 +24,4 @@
 #define PATTERN_STRUCTURAL_H_INCLUDED
 
 #include "bridge/bridge.h"
+#include "adapter/adapter.hpp"
